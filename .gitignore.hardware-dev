@@ -1,0 +1,13 @@
+# Ignore everything
+/*
+
+# Allow .gitignore
+!.gitignore
+
+# Recursively allow files under ./docs for the documentation branch
+!/docs/
+!/hardware/
+
+# Regard LICENSE and README as part of the documentation
+!LICENSE.md
+!README.md
